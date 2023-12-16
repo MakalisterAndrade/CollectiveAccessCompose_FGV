@@ -49,9 +49,11 @@ cp ExternalCache.php providence/pawtucket/app/lib/Cache/ExternalCache.php
 # Gives read, write and execute access to all users so that the container can access the files
 chmod a=rwx -R providence
 
+### Dublin core profile to CA
+cp pt_BR/base.xml providence/install/profiles/xml/base.xml
 
 ### pt_BR locale (may be commented out if not needed)
-cp pt_BR/base.xml providence/install/profiles/xml/base.xml
+cp pt_BR/dublincore.xml providence/install/profiles/xml/dublincore.xml
 cp pt_BR/default.xml providence/install/profiles/xml/default.xml
 cp pt_BR/app.conf providence/pawtucket/app/conf/app.conf
 
