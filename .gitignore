@@ -1,0 +1,5 @@
+ignore/
+providence/
+profile.xsd
+*.tar.gz
+*.ipynb
